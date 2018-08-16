@@ -81,9 +81,11 @@
         <script src="http://needlesandstitch.com/wp-content/themes/needlesansstitch/js/jquery.min.js" ></script>
 		<script type="text/javascript" src="js/jquery.gridrotator.js"></script>
 		<script type="text/javascript">	
-			$(function() {
-			
-					$('#ri-grid' ).gridrotator( {
+;(function ($, window, document, undefined) {
+	'use strict';
+
+
+$('#ri-grid' ).gridrotator( {
 					rows : 2,
 					columns : 4,
 					maxStep : 2,
@@ -109,7 +111,14 @@
 						columns : 3
 					},
 				} );
-			
+	 
+
+
+
+
+
+})(jQuery, window, document);
+
 			});
 		</script>
     </body>
